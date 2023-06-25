@@ -1,15 +1,15 @@
 #include <iostream>
-#include "components/Vector3D.h"
-#include "components/Ray.h"
-#include "render_engine/headers/RasterOptions.h"
-#include "render_engine/headers/ViewPort.h"
+#include "../components/Vector3D.h"
+#include "../components/Ray.h"
+#include "../render_engine/headers/RasterOptions.h"
+#include "../render_engine/headers/ViewPort.h"
 
 using namespace std;
 using namespace components;
 using namespace render_engine;
 
-int main() {
-    RasterOptions rasterOptions = RasterOptions(25, 25);
+int ViewPortTest() {
+    RasterOptions rasterOptions = RasterOptions(5, 5);
     ViewPort viewPort = ViewPort();
 
     vector<vector<Ray *>> rays = viewPort.generateRays(rasterOptions, Vector3D(0, 0, 0));
