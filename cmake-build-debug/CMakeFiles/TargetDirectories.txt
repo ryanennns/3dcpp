@@ -1,0 +1,3 @@
+/Users/ryanenns/CLionProjects/3Drender/cmake-build-debug/CMakeFiles/3Drender.dir
+/Users/ryanenns/CLionProjects/3Drender/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ryanenns/CLionProjects/3Drender/cmake-build-debug/CMakeFiles/rebuild_cache.dir
