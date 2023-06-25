@@ -10,6 +10,8 @@ namespace components {
 
         Vector3D(Vector3D *);
 
+        Vector3D(Vector3D&);
+
         double getX() const;
 
         double getY() const;

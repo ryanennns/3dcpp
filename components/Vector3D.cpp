@@ -20,6 +20,12 @@ namespace components {
         this->z = copyFrom->z;
     }
 
+    Vector3D::Vector3D(Vector3D &copyFrom) {
+        this->x = copyFrom.x;
+        this->y = copyFrom.y;
+        this->z = copyFrom.z;
+    }
+
     double Vector3D::getX() const {
         return this->x;
     }

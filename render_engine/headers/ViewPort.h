@@ -2,8 +2,8 @@
 #define INC_3DRENDER_VIEWPORT_H
 
 #include "vector"
-#include "../components/Vector3D.h"
-#include "../components/Ray.h"
+#include "../../components/Vector3D.h"
+#include "../../components/Ray.h"
 #include "./RasterOptions.h"
 
 using namespace components;
@@ -12,9 +12,13 @@ using namespace std;
 namespace render_engine {
     class ViewPort {
     public:
+        const double zOffset = 1;
+
         ViewPort();
+
         ~ViewPort();
-        vector<vector<Ray>> generateRays(RasterOptions rasterOptions, Vector3D transformCoordinates);
+
+        vector <vector<Ray *>> generateRays(RasterOptions &rasterOptions, Vector3D transformCoordinates);
 
     private:
         Vector3D *eye{};

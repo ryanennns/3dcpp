@@ -79,6 +79,12 @@ build CMakeFiles/3Drender.dir/render_engine/ViewPort.cpp.o: CXX_COMPILER__3Drend
   OBJECT_DIR = CMakeFiles/3Drender.dir
   OBJECT_FILE_DIR = CMakeFiles/3Drender.dir/render_engine
 
+build CMakeFiles/3Drender.dir/render_engine/Renderer.cpp.o: CXX_COMPILER__3Drender_Debug /Users/ryanenns/CLionProjects/3Drender/render_engine/Renderer.cpp || cmake_object_order_depends_target_3Drender
+  DEP_FILE = CMakeFiles/3Drender.dir/render_engine/Renderer.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/3Drender.dir
+  OBJECT_FILE_DIR = CMakeFiles/3Drender.dir/render_engine
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 3Drender
@@ -87,7 +93,7 @@ build CMakeFiles/3Drender.dir/render_engine/ViewPort.cpp.o: CXX_COMPILER__3Drend
 #############################################
 # Link the executable 3Drender
 
-build 3Drender: CXX_EXECUTABLE_LINKER__3Drender_Debug CMakeFiles/3Drender.dir/main.cpp.o CMakeFiles/3Drender.dir/components/Ray.cpp.o CMakeFiles/3Drender.dir/components/Vector3D.cpp.o CMakeFiles/3Drender.dir/render_engine/RasterOptions.cpp.o CMakeFiles/3Drender.dir/render_engine/ViewPort.cpp.o
+build 3Drender: CXX_EXECUTABLE_LINKER__3Drender_Debug CMakeFiles/3Drender.dir/main.cpp.o CMakeFiles/3Drender.dir/components/Ray.cpp.o CMakeFiles/3Drender.dir/components/Vector3D.cpp.o CMakeFiles/3Drender.dir/render_engine/RasterOptions.cpp.o CMakeFiles/3Drender.dir/render_engine/ViewPort.cpp.o CMakeFiles/3Drender.dir/render_engine/Renderer.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   OBJECT_DIR = CMakeFiles/3Drender.dir
   POST_BUILD = :

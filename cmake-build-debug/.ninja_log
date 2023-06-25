@@ -1,8 +1,15 @@
 # ninja log v5
-3	654	1687696397640434724	CMakeFiles/3Drender.dir/main.cpp.o	62bfbc7e8e145ab7
-654	721	1687696397711132964	3Drender	52c5a1512caf645e
-3	54	1687696397042389000	CMakeFiles/3Drender.dir/components/Ray.cpp.o	df22ffb7b5fb7274
-3	177	1687695487918966880	CMakeFiles/3Drender.dir/components/Vector3D.cpp.o	a52850e6eba39531
-2	90	1687698022672914029	CMakeFiles/3Drender.dir/render_engine/RasterOptions.cpp.o	bbcb02b0caf9ac0
-2	410	1687698022991032981	CMakeFiles/3Drender.dir/render_engine/ViewPort.cpp.o	b3e209e5729168db
-410	489	1687698023071985016	3Drender	4aa122aeac459423
+2	621	1687731791426719016	CMakeFiles/3Drender.dir/main.cpp.o	62bfbc7e8e145ab7
+1	64	1687731499028079699	CMakeFiles/3Drender.dir/components/Ray.cpp.o	df22ffb7b5fb7274
+2	127	1687731499092461506	CMakeFiles/3Drender.dir/components/Vector3D.cpp.o	a52850e6eba39531
+621	669	1687731791478299833	3Drender	87da8803b8de507e
+3	455	1687731791261972563	CMakeFiles/3Drender.dir/render_engine/ViewPort.cpp.o	b3e209e5729168db
+3	47	1687731790857067685	CMakeFiles/3Drender.dir/render_engine/RasterOptions.cpp.o	bbcb02b0caf9ac0
+0	67	1687731801703198486	build.ninja	68413e213eda276
+3	45	1687731790854893482	CMakeFiles/3Drender.dir/render_engine/Renderer.cpp.o	dd930fb59b4673b8
+0	69	1687731801703198486	build.ninja	68413e213eda276
+3	52	1687731801765965902	CMakeFiles/3Drender.dir/components/Ray.cpp.o	df22ffb7b5fb7274
+3	105	1687731801818276214	CMakeFiles/3Drender.dir/components/Vector3D.cpp.o	a52850e6eba39531
+3	427	1687731802137899380	CMakeFiles/3Drender.dir/render_engine/ViewPort.cpp.o	b3e209e5729168db
+2	557	1687731802268658967	CMakeFiles/3Drender.dir/main.cpp.o	62bfbc7e8e145ab7
+557	606	1687731802320729277	3Drender	87da8803b8de507e
