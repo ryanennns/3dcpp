@@ -6,8 +6,8 @@ using namespace std;
 using namespace components;
 
 int main() {
-    Vector3D* vector = new Vector3D(1, 2, 3);
-    Vector3D* addTo = new Vector3D(1, 2, 3);
+    Vector3D *vector = new Vector3D(1, 2, 3);
+    Vector3D *addTo = new Vector3D(1, 2, 3);
 
     vector->add(addTo)->multiplyByScalar(2);
 
@@ -15,7 +15,7 @@ int main() {
     cout << vector->getY() << endl;
     cout << vector->getZ() << endl;
 
-    Ray* snickers = new Ray(vector, addTo);
+    Ray *snickers = new Ray(vector, addTo);
 
     delete snickers;
 
